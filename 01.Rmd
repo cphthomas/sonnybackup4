@@ -11,43 +11,12 @@ output:
 
 
 
-```{r echo=FALSE}
-
-BEGREB <- c(
-          "Grundloven",
-          "Tinglysningsloven",
-          "Aftaleloven"
-          # ,
-          # "h test"
-          
-          
-          
-          )
-forklaring <- c(
-  "Grundloven beskriver bl.a. den enkelte borgers rettigheder og pligter, du kan se den her:><a href=\"https://www.retsinformation.dk/Forms/R0710.aspx?id=45902\" style=\"color:#3088fc\" target=\"_blank\">Grundloven</a>",
-  "Tinglysningsloven indeholder reglerne for den offentlige registrering af rettigheder over fast ejendom<br><a href=\"https://www.retsinformation.dk/Forms/R0710.aspx?id=142900\" style=\"color:#3088fc\" target=\"_blank\">Tinglysningsloven</a>",
-  "Aftaleloven"
-#   ,
-#   "Vi tester hypotesen
-#   <br>H<sub>0</sub>: &mu;=34
-#   <br>H<sub>1</sub>: &mu;&ne;34<br>
-# <br>H<sub>0</sub>: &mu;≤34
-#   <br>H<sub>1</sub>: &mu;>34<br>
-#   <a href=\"https://www.retsinformation.dk/Forms/R0710.aspx?id=142900\" style=\"color:#3088fc\" target=\"_blank\">Tinglysningsloven</a>"
-#   
-  
-  )
-  
-indeks <<- data.frame(BEGREB,forklaring)
-  
-
-```
 
 
 #   Indledning {-}
 
 
-`r source('/cloud/project/script2.R')`
+
 
 
 
@@ -88,7 +57,7 @@ indeks <<- data.frame(BEGREB,forklaring)
 
 
 
-Af de mere end 1.300 love, vi har i Danmark, er der én lov, en retskilde, der er hævet over alle de andre, nemlig grundloven.  ``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` er Danmarks forfatning, dvs. den lov, der beskriver de grundlæggende regler for samfundet. 
+Af de mere end 1.300 love, vi har i Danmark, er der én lov, en retskilde, der er hævet over alle de andre, nemlig grundloven.   er Danmarks forfatning, dvs. den lov, der beskriver de grundlæggende regler for samfundet. 
 
 EU-retten står over dansk ret, sådan at en dansk lov kan være ulovlig, nemlig, hvis den enten strider mod EU-retten eller mod grundloven.
 
@@ -113,7 +82,7 @@ Efterhånden som den internationale udvikling tog fart, erkendte Kong Christian 
 ## Rettigheder og pligter
 
 
-``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` beskriver bl.a. den enkelte borgers rettigheder og pligter, f.eks. at der er ytringsfrihed, religionsfrihed og værnepligt. 
+ beskriver bl.a. den enkelte borgers rettigheder og pligter, f.eks. at der er ytringsfrihed, religionsfrihed og værnepligt. 
 
 I grundloven står der også, at den øverste magt i Danmark skal deles mellem den lovgivende, den udøvende og den dømmende magt.
 
@@ -123,11 +92,11 @@ Om regeringen, der skal sikre, at lovene bliver overholdt af os borgere og af de
 
 Om domstolene, der er uafhængige af regering og Folketing, fordi de skal dømme i konflikter mellem borgerne indbyrdes og mellem myndigheder og borgere.
 
-``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` handler også om de rettigheder, du har som borger. Vi kalder dem friheds- eller menneskerettigheder.
+ handler også om de rettigheder, du har som borger. Vi kalder dem friheds- eller menneskerettigheder.
 
 Den ene slags frihedsrettigheder er ytringsfriheden, retten til at forsamles og demonstrere for dine synspunkter og retten til at oprette foreninger og til at være medlem af en forening. 
 
-``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` sikrer også, at du har ret til at være medlem af et politisk parti og være politisk aktiv – også selv om det går imod regeringens eller flertallets synspunkter. 
+ sikrer også, at du har ret til at være medlem af et politisk parti og være politisk aktiv – også selv om det går imod regeringens eller flertallets synspunkter. 
 
 Disse rettigheder skal sikre, at demokratiet kan fungere. 
 
@@ -143,9 +112,9 @@ Hvis myndighederne vil undersøge din bolig, dine private papirer eller din pc, 
 
 Og hvis myndighederne vil tage dit hus for at rive det ned, fordi der skal bygges en motorvej eller en jernbane hen over grunden, ja så skal du have en erstatning, der svarer til husets og grundens værdi.
 
-``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` sætter på den måde grænser for, hvordan staten kan blande sig i vores privatliv.
+sætter på den måde grænser for, hvordan staten kan blande sig i vores privatliv.
 
-``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` skal sikre stabile rammer om det politiske liv og de politiske kampe om magten. Og grundloven skal sikre, at borgernes rettigheder ikke krænkes. 
+ skal sikre stabile rammer om det politiske liv og de politiske kampe om magten. Og grundloven skal sikre, at borgernes rettigheder ikke krænkes. 
 
 Begge dele sikres ved, at grundloven er mere vanskelig at ændre end andre love. Den danske grundlov er kun blevet ændret få gange, siden den blev vedtaget for mere end 160 år siden. 
 
@@ -253,7 +222,7 @@ Folketinget og regeringen er de eneste, der kan fremsætte lovforslag, dvs. komm
 Den lovgivende magt er Folketinget og regering, men det er kun Folketinget, der kan vedtage lovforslag.
 
 
-``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` beskriver fordelingen af magten mellem Folketinget (lovgivende), regeringen (udøvende og lovgivende) og domstolene (dømmende), også kaldet magtens tredeling. 
+ beskriver fordelingen af magten mellem Folketinget (lovgivende), regeringen (udøvende og lovgivende) og domstolene (dømmende), også kaldet magtens tredeling. 
 
 Magten i samfundet er delt i 3 for at forhindre, at der sker magtmisbrug. 
 
@@ -382,7 +351,7 @@ Ministrene er som regel også medlemmer af Folketinget, men det er ikke et krav.
 ![](img/dronning.jpg)
 
 
-``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` giver dronningen magt til at udpege statsministeren og de øvrige ministre. 
+ giver dronningen magt til at udpege statsministeren og de øvrige ministre. 
 
 Men i praksis er det et flertal i Folketinget, der er afgørende for, hvem der skal være statsminister. 
 
@@ -562,7 +531,7 @@ visNetwork(nodes, edges, height = "500px", width = "80%",avoidOverlap=2) %>%
   #visLayout(randomSeed = 24) # to have always the same network
 
 ```
-Uafhængige domstole er en grundlæggende del af magtens tredeling i et demokrati. Sådan er det også i Danmark. ``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` siger nemlig, at domstolene alene har den dømmende magt.
+Uafhængige domstole er en grundlæggende del af magtens tredeling i et demokrati. Sådan er det også i Danmark.  siger nemlig, at domstolene alene har den dømmende magt.
 
 
 ### Domstolenes opgaver
@@ -575,7 +544,7 @@ Domstolene er den dømmende magt i Danmark. De afgør, om personer har overtråd
 
 Alle har ret til en retfærdig rettergang. Det står i den europæiske menneskerettighedskonvention. Det betyder bl.a., at en retssag skal afgøres inden for en rimelig tidsperiode og ved en domstol, der er uafhængig og upartisk. 
 
-Domstolenes uafhængighed er bestemt i den danske grundlov. ``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))`` deler nemlig magten i tre for at forhindre magtmisbrug, jf. ``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))``s § 3:
+Domstolenes uafhængighed er bestemt i den danske grundlov.  deler nemlig magten i tre for at forhindre magtmisbrug, jf. s § 3:
 
 
 *	den lovgivende magt (Folketinget og regeringen)
@@ -644,7 +613,7 @@ Ved Højesteret behandles også sager, som Procesbevillingsnævnet har tilladt i
 
 I straffesager kan Højesteret ikke tage stilling til skyldsspørgsmålet.
 
-Særlige forvaltnings- eller forfatningsdomstole anvender man i mange andre EU-lande. Det gør man ikke i Danmark. Her er det de almindelige domstole – i praksis Højesteret – der undersøger, om de afgørelser, myndighederne træffer, er lovlige, eller om en lov er i strid med ``r tippy(indeks[1,1], size="large" ,interactive = TRUE, arrow = TRUE, tooltip = paste0("<h4>",indeks[1,2],"</h4>"))``.
+Særlige forvaltnings- eller forfatningsdomstole anvender man i mange andre EU-lande. Det gør man ikke i Danmark. Her er det de almindelige domstole – i praksis Højesteret – der undersøger, om de afgørelser, myndighederne træffer, er lovlige, eller om en lov er i strid med .
 <br>
 
 ### Landsretterne
